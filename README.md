@@ -1,1 +1,1 @@
-# etch-a-sketch
+In this project I will be creating an etch-a-sketch style webapp where you can doodle using your mouse as much as your heart desires. I hope to gain further experience in JS and practice using a lot of the techniques I have already learned. I also look forward to refreshing my experience with CSS and HTML, to layout my page and add the content that will be necessary before I make it interactive with JS.
