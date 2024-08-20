@@ -7,11 +7,25 @@
         <script defer src="scripts/script.js"></script>
     </head>
     <body>
+        <div class="left">KAWAII</div>
+        <div id="content">
         <div class="container"></div>
-        <button class="reset">Reset</button>
-        <div class="slideContainer">
-            <input type="range" min="1" max="100" value="50" class="slider" id="range">
-            <p>Value: <span id="output"></span></p>
+             <div class="tool-bar">
+                     <div class="slide-container">
+                         <input type="range" min="1" max="100" value="50" class="slider" id="range">
+                         <div>Grid - X, Y: <span id="output"></span></div>
+                         </div>
+                 <div class="buttons">
+                        <button class="reset">Reset</button>
+                        <button id="grid-lines">Grid lines</button>
+                        <button id="rainbow">Rainbow Color</button>
+                        <button id="shade">Shade</button>
+                        <button id="lighten">Lighten</button>
+                        <button id="eraser">Eraser</button>
+                        <input class="color-selector" type="color" value="#242424">
+             </div>
         </div>
+    </div>
+    <div class="right">COLOR</div>
     </body>
 </html>
