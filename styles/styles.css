@@ -1,31 +1,41 @@
 * {
     box-sizing: border-box  ;
 }
-body {
+
+html {
+    background-color: rgb(241, 117, 204);
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 171, 230);
+    margin:0px;
+    border-radius: 15px;
+}
+
+#main {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(236, 86, 191);
-    
-}
+    background-color: rgb(241, 117, 204);
+    margin:0px
+} 
+
 .left,
 .right {
     display: flex;
-    flex-direction: column;
-    text-orientation: upright;
-    writing-mode: vertical-lr;
-    letter-spacing: 10px;
-    font-size: 50px ;
-    color: aliceblue;
-
+    align-items: center;
+    gap: 15px;
 }
 #content {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(236, 86, 191);
+    gap: 10px;
 }
 .container {
     display: flex;
@@ -88,4 +98,57 @@ button,
     display: flex;
     justify-content: space-evenly;
     width:300px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.title {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    letter-spacing: 10px;
+    font-size: 50px ;
+    color: aliceblue;
+
+}
+
+.header-img {
+display: flex;
+justify-content: center;
+height: 250px;
+min-width: none;
+flex:1;
+
+}
+
+.header-decoration {
+    border: 1px solid rgba(241, 117, 204, 0);
+    border-radius: 100px;
+    flex:none;
+    height:282.13px;
+    
+}
+
+#logo {
+    width: 700px;
+    height: 383.02px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    gap:10px
+}
+
+.footer-text {
+    display: flex;
+    color:aliceblue;
+    align-items: center;
+}
+.socials {
+    width: 1.5em;
+    height: auto;
 }
